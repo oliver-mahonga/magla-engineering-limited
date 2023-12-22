@@ -1,0 +1,358 @@
+<html>
+    <head>
+      
+        <title>MAGLA ENGINEERING LIMITED</title>
+        <style>
+            body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+background-color: green;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+
+        </style>
+    </head>
+   
+    
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+         <center> <img src="log.jpg" alt="" width="100" ></center>
+          <h1><span class="highlight">MAGLA</span> ENGINEERING LIMITED <img src="" alt=""></h1>
+         
+
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="contact.html">contact us page</a></li>
+            
+            <li><a href="portfolio.html">portfolio</a></li>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <u><p>majohhnyilaz@gmail.com</p></u>
+            <b><h1>+254 729430773</h1></b>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+      </div>
+      <div id="slideshow-container">
+        <div class="my slides">
+          <img src="showcase.jpg" alt="slide 1" class="slide-img">
+          <aside id="sidebar">
+            <div class="dark">
+              <h3>Send us a Message for inquiry about our services</h3>
+              <form class="quote">
+                <div>
+                  <label>Name</label><br>
+                  <input type="text" placeholder="Name">
+                </div>
+                <div>
+                  <label>Email</label><br>
+                  <input type="email" placeholder="Email Address">
+                </div>
+                <div>
+                  <label>Message</label><br>
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <button class="button_1" type="submit">Send</button>
+            </form>
+            <VIDEo src="me.mp4" height="250" width="250" autoplay></VIDEo>
+          <b><h5>call us on: <br>
+            0729430773</on:0729430773></h5></b>
+            </div>
+          </aside>
+        </div>
+      </section>
+          <div class="my slides">
+          
+            <div class="my slides">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        let slideIndex=0;
+        function showSlides(){
+          let i;
+          const slides=document.getElementsByClassName("mySlides");
+          for (i=0; i<slides.length; i++){
+            slides[i].style.display="none";
+
+          }
+          slideIndex++;
+          if (slideIndex>slide.length){
+            slideIndex=1;
+
+          }
+          slides[slideIndex-1].style.display="block";
+          setTimeout(showSlides,2000);
+        }
+        showSlides();
+      </script>
+      <div class="container">
+        
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+       
+        <form>
+          <input type="email" placeholder="Enter Email..." required>
+          <button type="submit" class="button_1">Subscribe</button>
+          <B><U><H5>click <a href="portfolio.html">here</a>to view all of our finished projects in our portfolio</H5></U></B>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="1700733848806.jpg">
+          <h3>Design and planning</h3>
+          <p>Developing creative and functional designs for beaulding considering aesthetics,space utilization,and user requirements</p>
+        </div>
+        <div class="box">
+          <img src="1700733817315.jpg">
+          <h3>Master planning</h3>
+          <p>Creating long term plans for large scale developments </p>
+        </div>
+        <div class="box">
+          <img src="showcase.jpg">
+          <h3>Sustainable design</h3>
+          <p>Incoperating enviromentally friendly and energy efficient practices into the design process</p>
+        </div>
+      </div>>
+    </section>
+    <section id="container">
+       <div class="boxes">
+           <div class="box">
+               <body>
+                 
+               </body>
+               
+           </div>
+       </div>
+    </section>
+   
+
+    <footer>
+      <p>magla engineering limited, Copyright &copy; </p>
+    </footer>
+  </body>
+</html>
+
+</html>
